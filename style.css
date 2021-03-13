@@ -1,0 +1,152 @@
+/**
+ * Portfolio CSS
+ * Author: Jaymin Prajapati
+ * Date: March 06, 2021
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+/**
+ * General Styles
+ */
+
+:root {
+    --main-color: #1abc9c;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    color: #444;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    line-height: 1.5;
+}
+
+.container {
+    width: 90%;
+    height: 100vh;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
+/* Typography */
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 10em;
+}
+
+h2 {
+    font-size: 5em;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 2em;
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+    font-size: 2em;
+}
+
+.section-home {
+    height: 100vh;
+}
+
+.section-title {
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+/* Links */
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+.dark {
+    background: #444;
+}
+
+.dark * {
+    color: #ddd;
+}
+
+/**
+* Header
+*/
+
+.section-home {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.txt {
+    border-right: 0.1em #777 solid;
+}
+
+/**
+ * About Me
+ */
+
+.section-subtitle {
+    margin-top: 2em;
+}
+
+ul.skills {
+    list-style: disc;
+    padding-left: 30px;
+}
+
+/**
+* Footer
+*/
+
+footer {
+    padding: 1em 0;
+}
+
+.copyright {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-media-links {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 0.5em;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.social-media-links li {
+    margin-right: 1em;
+}
